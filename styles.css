@@ -1,0 +1,65 @@
+/*
+  File: style.css
+  Description: Styling for personal intro landing page
+  Author: Your Name
+  Date: 2026
+*/
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    /* Clean modern gradient */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* Content */
+.hero-content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+/* Name (Main Heading) */
+.hero-content h1 {
+    font-size: 3.5rem;      /* Increased size */
+    font-weight: 700;
+    color: #ffffff;         /* Pure white */
+    margin-bottom: 1rem;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.4rem;      /* Slightly larger */
+    font-weight: 400;
+    color: #d1d5db;         /* Soft light gray */
+    margin-bottom: 2rem;
+}
+
+/* Button */
+button {
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #00c6ff;
+    color: white;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #0072ff;
+    transform: translateY(-3px);
+}
